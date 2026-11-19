@@ -1,0 +1,1675 @@
+[2026-11-18 13:10:41.554] [INFO] [UI] [TS_005 Job Creation] ================================ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:41.556] [INFO] [UI] [TS_005 Job Creation] UI TEST STARTED: TS_005 Job Creation | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:41.561] [INFO] [UI] [TS_005 Job Creation] [MODULES] OMS_MODULES parsed successfully: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:41.561] [INFO] [UI] [TS_005 Job Creation] [MODULES] Registered modules: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:41.562] [INFO] [UI] [TS_005 Job Creation] [MODULES] Initial active module: PVI | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.324] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Locator     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.339] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Duration    : 15ms
+Page Class  : LoginPage
+Method      : selectLoginLocation
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.344] [INFO] [UI] [TS_005 Job Creation] Selected login location: Corporate | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.345] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.362] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Duration    : 17ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.363] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.376] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Duration    : 13ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:46.377] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Locator     : locator('//div[@id=\'userLogin\']//button[1]')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:47.203] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Duration    : 826ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:57.917] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Starting popup handling. shouldClose=true, target=null | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.024] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Popup detected: Hold Reports | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.024] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Clicking close button: Hold Reports | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.302] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Closed popup successfully: Hold Reports | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.320] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Popup detected: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.321] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Clicking close button: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.761] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Closed popup successfully: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.775] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Popup detected: Request for Approval | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:58.775] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Clicking close button: Request for Approval | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:59.135] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Closed popup successfully: Request for Approval | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:59.135] [INFO] [UI] [TS_005 Job Creation] [OMS POPUPS] Popup handling completed. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:10:59.139] [INFO] [UI] [TS_005 Job Creation] ========== TS_005: Job Creation ========== | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:00.270] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//span[@class=\'selection\']//child::span[text()=\'Type and select a client\']').first()
+Locator     : locator('//span[@class=\'selection\']//child::span[text()=\'Type and select a client\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:06.219] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//span[@class=\'selection\']//child::span[text()=\'Type and select a client\']').first()
+Duration    : 5949ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:06.224] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Locator     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:06.250] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Duration    : 26ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:07.089] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLEAR
+Element     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Locator     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:07.137] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLEAR
+Element     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Duration    : 48ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:07.147] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Locator     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:07.177] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//input[contains(@class,\'select2-search__field\') and @aria-controls=\'select2-clientId-results\']').first()
+Duration    : 31ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:07.279] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//ul[@id=\'select2-clientId-results\']//li[contains(text(),\'OMS NDT Testing 124077\')]').first()
+Locator     : locator('//ul[@id=\'select2-clientId-results\']//li[contains(text(),\'OMS NDT Testing 124077\')]').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:08.189] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//ul[@id=\'select2-clientId-results\']//li[contains(text(),\'OMS NDT Testing 124077\')]').first()
+Duration    : 910ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.197] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//h4[text()=\'Special Instruction\']//ancestor::div[@class=\'modal-content\']//button[text()=\'Understood\']').visible().first()
+Locator     : locator('//h4[text()=\'Special Instruction\']//ancestor::div[@class=\'modal-content\']//button[text()=\'Understood\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.525] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//h4[text()=\'Special Instruction\']//ancestor::div[@class=\'modal-content\']//button[text()=\'Understood\']').visible().first()
+Duration    : 328ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.526] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//input[@id=\'requestedByAdditionalCheckbox\']').first()
+Locator     : locator('//input[@id=\'requestedByAdditionalCheckbox\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.579] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//input[@id=\'requestedByAdditionalCheckbox\']').first()
+Duration    : 53ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.581] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//input[@id=\'requestedByAdditional\']').first()
+Locator     : locator('//input[@id=\'requestedByAdditional\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.602] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//input[@id=\'requestedByAdditional\']').first()
+Duration    : 21ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.606] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'COD only\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'COD only\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.667] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'COD only\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Duration    : 62ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:09.886] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//h4[normalize-space()=\'Please note\']/ancestor::div[contains(@class,\'modal-content\')]//button[@data-bb-handler=\'understood\' and normalize-space()=\'Understood\']').visible().first()
+Locator     : locator('//h4[normalize-space()=\'Please note\']/ancestor::div[contains(@class,\'modal-content\')]//button[@data-bb-handler=\'understood\' and normalize-space()=\'Understood\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:10.177] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//h4[normalize-space()=\'Please note\']/ancestor::div[contains(@class,\'modal-content\')]//button[@data-bb-handler=\'understood\' and normalize-space()=\'Understood\']').visible().first()
+Duration    : 291ms
+Page Class  : CreateJob
+Method      : acknowledgeCodPopup
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:10.389] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'COD only\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'COD only\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:10.468] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'COD only\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Duration    : 79ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:10.713] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//h4[normalize-space()=\'Please note\']/ancestor::div[contains(@class,\'modal-content\')]//button[@data-bb-handler=\'understood\' and normalize-space()=\'Understood\']').visible().first()
+Locator     : locator('//h4[normalize-space()=\'Please note\']/ancestor::div[contains(@class,\'modal-content\')]//button[@data-bb-handler=\'understood\' and normalize-space()=\'Understood\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.000] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//h4[normalize-space()=\'Please note\']/ancestor::div[contains(@class,\'modal-content\')]//button[@data-bb-handler=\'understood\' and normalize-space()=\'Understood\']').visible().first()
+Duration    : 287ms
+Page Class  : CreateJob
+Method      : acknowledgeCodPopup
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.239] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Send job confirmation\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Send job confirmation\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.295] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Send job confirmation\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Duration    : 56ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.296] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Attach limitations with job confirmation email\')]/ancestor::div[contains(@class,\'row\')]//label[normalize-space()=\'Yes\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Attach limitations with job confirmation email\')]/ancestor::div[contains(@class,\'row\')]//label[normalize-space()=\'Yes\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.351] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Attach limitations with job confirmation email\')]/ancestor::div[contains(@class,\'row\')]//label[normalize-space()=\'Yes\']').first()
+Duration    : 55ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.353] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Attach limitations with job confirmation email\')]/ancestor::div[contains(@class,\'row\')]//label[normalize-space()=\'No\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Attach limitations with job confirmation email\')]/ancestor::div[contains(@class,\'row\')]//label[normalize-space()=\'No\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.404] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Attach limitations with job confirmation email\')]/ancestor::div[contains(@class,\'row\')]//label[normalize-space()=\'No\']').first()
+Duration    : 51ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.406] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYLABEL
+Element     : locator('//label[contains(normalize-space(),\'Images per page on Report\')]/ancestor::div[contains(@class,\'row\')] //select[@id=\'noOfImagesPerPage\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Images per page on Report\')]/ancestor::div[contains(@class,\'row\')] //select[@id=\'noOfImagesPerPage\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.431] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYLABEL
+Element     : locator('//label[contains(normalize-space(),\'Images per page on Report\')]/ancestor::div[contains(@class,\'row\')] //select[@id=\'noOfImagesPerPage\']').first()
+Duration    : 25ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.434] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include tester/inspector certificates with reports\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Include tester/inspector certificates with reports\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.510] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include tester/inspector certificates with reports\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Duration    : 77ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.511] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include tester/inspector certificates with reports\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Include tester/inspector certificates with reports\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.551] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include tester/inspector certificates with reports\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Duration    : 40ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.553] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Client signature MUST on work record\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Client signature MUST on work record\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.599] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Client signature MUST on work record\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Duration    : 46ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.601] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Client signature MUST on work record\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Client signature MUST on work record\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.676] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Client signature MUST on work record\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Duration    : 75ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.678] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include client signature on report\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Include client signature on report\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.720] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include client signature on report\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'Yes\']').first()
+Duration    : 42ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.721] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include client signature on report\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Include client signature on report\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.760] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Include client signature on report\')]/ancestor::div[contains(@class,\'row\')] //label[normalize-space()=\'No\']').first()
+Duration    : 39ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.762] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Fee proposal\')]/ancestor::div[contains(@class,\'row\')]//input[@placeholder=\'Quote or Fee proposal No. or Schedule of rates\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Fee proposal\')]/ancestor::div[contains(@class,\'row\')]//input[@placeholder=\'Quote or Fee proposal No. or Schedule of rates\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.784] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Fee proposal\')]/ancestor::div[contains(@class,\'row\')]//input[@placeholder=\'Quote or Fee proposal No. or Schedule of rates\']').first()
+Duration    : 23ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.824] [INFO] [UI] [TS_005 Job Creation] Uploaded file: Non_destructive_testing_business.txt | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\Non_destructive_testing_business.txt"}
+[2026-11-18 13:11:11.825] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//button[@data-dismiss=\'modal\' and text()=\'Close\']').visible().first()
+Locator     : locator('//button[@data-dismiss=\'modal\' and text()=\'Close\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.846] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//button[@data-dismiss=\'modal\' and text()=\'Close\']').visible().first()
+Duration    : 21ms
+Page Class  : CreateJob
+Method      : closeInvalidFilePopup
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.876] [INFO] [UI] [TS_005 Job Creation] Successfully uploaded 2 files. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.878] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//input[@name=\'purchaseOrder\']').first()
+Locator     : locator('//input[@name=\'purchaseOrder\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.897] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//input[@name=\'purchaseOrder\']').first()
+Duration    : 19ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.912] [INFO] [UI] [TS_005 Job Creation] Successfully uploaded 2 files. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.914] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//input[@id=\'jobRequestNo\']').first()
+Locator     : locator('//input[@id=\'jobRequestNo\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.947] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//input[@id=\'jobRequestNo\']').first()
+Duration    : 32ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.971] [INFO] [UI] [TS_005 Job Creation] Successfully uploaded 2 files. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.973] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Special instructions\')]/ancestor::div[contains(@class,\'row\')]//textarea[@placeholder=\'Type special instructions for this job\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Special instructions\')]/ancestor::div[contains(@class,\'row\')]//textarea[@placeholder=\'Type special instructions for this job\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:11.993] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Special instructions\')]/ancestor::div[contains(@class,\'row\')]//textarea[@placeholder=\'Type special instructions for this job\']').first()
+Duration    : 20ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:12.010] [INFO] [UI] [TS_005 Job Creation] Uploaded file: data.xlsx | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\data.xlsx"}
+[2026-11-18 13:11:12.012] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//input[@name=\'clientCorrespondence\']').first()
+Locator     : locator('//input[@name=\'clientCorrespondence\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:12.037] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//input[@name=\'clientCorrespondence\']').first()
+Duration    : 24ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:12.038] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//span[contains(normalize-space(),\'Required on (from)\')]/ancestor::div[contains(@class,\'row\')]//input[@id=\'requiredByDate\']').first()
+Locator     : locator('//span[contains(normalize-space(),\'Required on (from)\')]/ancestor::div[contains(@class,\'row\')]//input[@id=\'requiredByDate\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:12.130] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//span[contains(normalize-space(),\'Required on (from)\')]/ancestor::div[contains(@class,\'row\')]//input[@id=\'requiredByDate\']').first()
+Duration    : 92ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:12.290] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@class,\'xdsoft_datetimepicker\') and contains(@style,\'display: block\')]').visible().first().locator('xpath=.//td[@data-date=\'18\' and @data-month=\'10\' and @data-year=\'2026\']').first()
+Locator     : locator('//div[contains(@class,\'xdsoft_datetimepicker\') and contains(@style,\'display: block\')]').visible().first().locator('xpath=.//td[@data-date=\'18\' and @data-month=\'10\' and @data-year=\'2026\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:12.309] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@class,\'xdsoft_datetimepicker\') and contains(@style,\'display: block\')]').visible().first().locator('xpath=.//td[@data-date=\'18\' and @data-month=\'10\' and @data-year=\'2026\']').first()
+Duration    : 20ms
+Page Class  : CreateJob
+Method      : selectTodayDateAndCurrentTime
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:13.079] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@style,\'display: block\')]//div[@data-hour=\'13\' and @data-minute=\'10\']').first()
+Locator     : locator('//div[contains(@style,\'display: block\')]//div[@data-hour=\'13\' and @data-minute=\'10\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:13.126] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@style,\'display: block\')]//div[@data-hour=\'13\' and @data-minute=\'10\']').first()
+Duration    : 47ms
+Page Class  : CreateJob
+Method      : selectTodayDateAndCurrentTime
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:13.131] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//input[@placeholder=\'Click to select\' and @id=\'receivedDate\']').first()
+Locator     : locator('//input[@placeholder=\'Click to select\' and @id=\'receivedDate\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:13.218] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//input[@placeholder=\'Click to select\' and @id=\'receivedDate\']').first()
+Duration    : 87ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:13.432] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@class,\'xdsoft_datetimepicker\') and contains(@style,\'display: block\')]').visible().first().locator('xpath=.//td[@data-date=\'18\' and @data-month=\'10\' and @data-year=\'2026\']').first()
+Locator     : locator('//div[contains(@class,\'xdsoft_datetimepicker\') and contains(@style,\'display: block\')]').visible().first().locator('xpath=.//td[@data-date=\'18\' and @data-month=\'10\' and @data-year=\'2026\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:13.464] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@class,\'xdsoft_datetimepicker\') and contains(@style,\'display: block\')]').visible().first().locator('xpath=.//td[@data-date=\'18\' and @data-month=\'10\' and @data-year=\'2026\']').first()
+Duration    : 32ms
+Page Class  : CreateJob
+Method      : selectTodayDateAndCurrentTime
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:14.216] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@style,\'display: block\')]//div[@data-hour=\'13\' and @data-minute=\'10\']').first()
+Locator     : locator('//div[contains(@style,\'display: block\')]//div[@data-hour=\'13\' and @data-minute=\'10\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:14.256] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//div[contains(@style,\'display: block\')]//div[@data-hour=\'13\' and @data-minute=\'10\']').first()
+Duration    : 40ms
+Page Class  : CreateJob
+Method      : selectTodayDateAndCurrentTime
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:14.257] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[contains(@class,\'form-row\')]//child::button[@id=\'createJobButton\']').first()
+Locator     : locator('//div[contains(@class,\'form-row\')]//child::button[@id=\'createJobButton\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:19.939] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[contains(@class,\'form-row\')]//child::button[@id=\'createJobButton\']').first()
+Duration    : 5682ms
+Page Class  : CreateJob
+Method      : createJobProcessRecords
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:24.237] [INFO] [UI] [TS_005 Job Creation] Successfully captured Job Number: CP26-0581 | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:24.249] [INFO] [UI] [TS_005 Job Creation] Updated environment property: CreatedJobNo | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:24.255] [INFO] [UI] [TS_005 Job Creation] Updated environment property: JobNumber | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:24.256] [INFO] [UI] [TS_005 Job Creation] Mapping Job Number [CP26-0581] to active modules: PVI | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:24.260] [INFO] [UI] [TS_005 Job Creation] Updated environment property: PVI | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:28.449] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//ul[contains(@class,\'ui-autocomplete\')]//div[contains(normalize-space(),\'As per attached document\')]').visible().first()
+Locator     : locator('//ul[contains(@class,\'ui-autocomplete\')]//div[contains(normalize-space(),\'As per attached document\')]').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:28.545] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//ul[contains(@class,\'ui-autocomplete\')]//div[contains(normalize-space(),\'As per attached document\')]').visible().first()
+Duration    : 96ms
+Page Class  : CreateJob
+Method      : pickAutocompleteSuggestion
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:28.547] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Client Job Request No.\')]/parent::div//button[contains(@class,\'btn-upload-document\')]').first()
+Locator     : locator('//label[contains(normalize-space(),\'Client Job Request No.\')]/parent::div//button[contains(@class,\'btn-upload-document\')]').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:28.604] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Client Job Request No.\')]/parent::div//button[contains(@class,\'btn-upload-document\')]').first()
+Duration    : 58ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:29.008] [INFO] [UI] [TS_005 Job Creation] Uploaded file: img.png | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\img.png"}
+[2026-11-18 13:11:29.015] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:29.083] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 68ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:29.966] [INFO] [UI] [TS_005 Job Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:29.971] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client Job Request No.\')]/ancestor::div//button[@title=\'Delete document\']').visible().first()
+Locator     : locator('//h4[contains(normalize-space(),\'Client Job Request No.\')]/ancestor::div//button[@title=\'Delete document\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:30.042] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client Job Request No.\')]/ancestor::div//button[@title=\'Delete document\']').visible().first()
+Duration    : 71ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:30.393] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:30.466] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 73ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.347] [INFO] [UI] [TS_005 Job Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.376] [INFO] [UI] [TS_005 Job Creation] Uploaded file: img.png | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\img.png"}
+[2026-11-18 13:11:31.379] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client Job Request No.\')]/ancestor::div//button[@id=\'close-documents-modal\']').visible().first()
+Locator     : locator('//h4[contains(normalize-space(),\'Client Job Request No.\')]/ancestor::div//button[@id=\'close-documents-modal\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.428] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client Job Request No.\')]/ancestor::div//button[@id=\'close-documents-modal\']').visible().first()
+Duration    : 49ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.652] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(), \'Client correspondence emails\')]/parent::div//input[@name=\'clientCorrespondence\']').first()
+Locator     : locator('//label[contains(normalize-space(), \'Client correspondence emails\')]/parent::div//input[@name=\'clientCorrespondence\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.687] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(), \'Client correspondence emails\')]/parent::div//input[@name=\'clientCorrespondence\']').first()
+Duration    : 34ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.688] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@data-type=\'CD\' and contains(@class,\'btn-upload-document\')]').first()
+Locator     : locator('//button[@data-type=\'CD\' and contains(@class,\'btn-upload-document\')]').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:31.938] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@data-type=\'CD\' and contains(@class,\'btn-upload-document\')]').first()
+Duration    : 250ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:32.288] [INFO] [UI] [TS_005 Job Creation] Uploaded file: img.png | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\img.png"}
+[2026-11-18 13:11:35.771] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:35.835] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 64ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:36.706] [INFO] [UI] [TS_005 Job Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:36.707] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client correspondence emails\')]/ancestor::div//button[@title=\'Delete document\']').visible().first()
+Locator     : locator('//h4[contains(normalize-space(),\'Client correspondence emails\')]/ancestor::div//button[@title=\'Delete document\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:39.165] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client correspondence emails\')]/ancestor::div//button[@title=\'Delete document\']').visible().first()
+Duration    : 2458ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:39.177] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:39.207] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 31ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:44.220] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:44.259] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICKUSINGJS
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 39ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.111] [INFO] [UI] [TS_005 Job Creation] Toast closed using JS and became invisible. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.154] [INFO] [UI] [TS_005 Job Creation] Uploaded file: img.png | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\img.png"}
+[2026-11-18 13:11:45.155] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client correspondence emails\')]/ancestor::div//button[@id=\'close-documents-modal\']').visible().first()
+Locator     : locator('//h4[contains(normalize-space(),\'Client correspondence emails\')]/ancestor::div//button[@id=\'close-documents-modal\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.186] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//h4[contains(normalize-space(),\'Client correspondence emails\')]/ancestor::div//button[@id=\'close-documents-modal\']').visible().first()
+Duration    : 31ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.416] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Project name / Items description\')]/ancestor::div//textarea[@id=\'jobDescription\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Project name / Items description\')]/ancestor::div//textarea[@id=\'jobDescription\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.458] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Project name / Items description\')]/ancestor::div//textarea[@id=\'jobDescription\']').first()
+Duration    : 42ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.460] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Project name / Items description\')]/ancestor::div//textarea[@id=\'identification\']').first()
+Locator     : locator('//label[contains(normalize-space(),\'Project name / Items description\')]/ancestor::div//textarea[@id=\'identification\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.492] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Project name / Items description\')]/ancestor::div//textarea[@id=\'identification\']').first()
+Duration    : 32ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.493] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@data-type=\'jobExcelData\' and contains(@class,\'btn-upload-document\')]').first()
+Locator     : locator('//button[@data-type=\'jobExcelData\' and contains(@class,\'btn-upload-document\')]').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.636] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@data-type=\'jobExcelData\' and contains(@class,\'btn-upload-document\')]').first()
+Duration    : 143ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:45.656] [INFO] [UI] [TS_005 Job Creation] Uploaded file: data.xlsx | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\data.xlsx"}
+[2026-11-18 13:11:46.006] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:46.061] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 55ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:46.920] [INFO] [UI] [TS_005 Job Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:46.933] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//p[normalize-space()=\'data.xlsx\']/ancestor::div[contains(@class,\'fileName\')]/following-sibling::div//button[contains(@class,\'btn-delete-document\')]').visible().first()
+Locator     : locator('//p[normalize-space()=\'data.xlsx\']/ancestor::div[contains(@class,\'fileName\')]/following-sibling::div//button[contains(@class,\'btn-delete-document\')]').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:46.977] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//p[normalize-space()=\'data.xlsx\']/ancestor::div[contains(@class,\'fileName\')]/following-sibling::div//button[contains(@class,\'btn-delete-document\')]').visible().first()
+Duration    : 44ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:47.321] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:47.379] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 58ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:48.242] [INFO] [UI] [TS_005 Job Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:48.271] [INFO] [UI] [TS_005 Job Creation] Uploaded file: FeSteel600.pdf | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\FeSteel600.pdf"}
+[2026-11-18 13:11:50.685] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Locator     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:50.762] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'toast-container\']//div[@class=\'toast-message\']').first()
+Duration    : 78ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:51.624] [INFO] [UI] [TS_005 Job Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:51.626] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[contains(@class,\'modal-content\')]//button[@id=\'close-documents-modal\']').visible().first()
+Locator     : locator('//div[contains(@class,\'modal-content\')]//button[@id=\'close-documents-modal\']').visible().first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:51.698] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[contains(@class,\'modal-content\')]//button[@id=\'close-documents-modal\']').visible().first()
+Duration    : 72ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:51.935] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//div[@class=\'input-group\']//textarea[@name=\'specialInstructions\']').first()
+Locator     : locator('//div[@class=\'input-group\']//textarea[@name=\'specialInstructions\']').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:51.972] [INFO] [UI] [TS_005 Job Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//div[@class=\'input-group\']//textarea[@name=\'specialInstructions\']').first()
+Duration    : 37ms
+Page Class  : CreateJob
+Method      : jobAcceptanceCriteria
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:11:52.895] [INFO] [UI] [TS_005 Job Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'fromMaterial\']//input[contains(@data-value,\'Steel Grade Fe620\')]').first()
+Locator     : locator('//div[@id=\'fromMaterial\']//input[contains(@data-value,\'Steel Grade Fe620\')]').first()
+Page Class  : CreateJob
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 13:21:27.646] [ERROR] [UI] [TS_005 Job Creation] 
+============================================================
+                    UI ACTION FAILED
+============================================================
+
+Action       : CLICK
+Element      : locator('//div[@id=\'fromMaterial\']//input[contains(@data-value,\'Steel Grade Fe620\')]').first()
+Locator      : locator('//div[@id=\'fromMaterial\']//input[contains(@data-value,\'Steel Grade Fe620\')]').first()
+Page Class   : CreateJob
+Method       : materialAndSpecificationMapping
+Current URL  : URL unavailable (page closed)
+
+Duration     : 574750ms
+
+Error        : locator.click: Test ended.
+
+Reason       : Element is not visible.
+
+FAILED SOURCE:
+
+at CreateJob.materialAndSpecificationMapping
+   (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\JobsProcessRecords\CreateJob.ts:483:35)
+
+ORIGINAL PLAYWRIGHT STACK TRACE:
+
+locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('//div[@id=\'fromMaterial\']//input[contains(@data-value,\'Steel Grade Fe620\')]').first()[22m
+[2m    2 × locator resolved to <input type="checkbox" class="fromMaterial" data-value="Steel Grade Fe620" data-id="69776d58d8c6a97044b69fe5"/>[22m
+[2m    - attempting click action[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m    - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <input type="checkbox" class="fromMaterial" data-value="Steel Grade Fe620" data-id="69776d58d8c6a97044b69fe5"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not visible[22m
+[2m  - retrying click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m    - element was detached from the DOM, retrying[22m
+[2m      - locator resolved to <input type="checkbox" class="fromMaterial" data-value="Steel Grade Fe620" data-id="69776d58d8c6a97044b69fe5"/>[22m
+[2m    - attempting click action[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 20ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    921 × waiting for element to be visible, enabled and stable[22m
+[2m        - element is not visible[22m
+[2m      - retrying click action[22m
+[2m        - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+    at run (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:173:66)
+    at UIActionUtils.locatorAction (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:1514:34)
+    at UIActionUtils.click (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:173:21)
+    at CreateJob.materialAndSpecificationMapping (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\JobsProcessRecords\CreateJob.ts:483:35)
+    at C:\Users\user\OneDrive\Desktop\OMS_Framework\tests\web\JobCreation.spec.ts:628:25
+    at C:\Users\user\OneDrive\Desktop\OMS_Framework\tests\web\JobCreation.spec.ts:615:13
+
+RECOVERY:
+
+Attempted          : NO
+Original locator   : locator('//div[@id=\'fromMaterial\']//input[contains(@data-value,\'Steel Grade Fe620\')]').first()
+Source location    : C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\JobsProcessRecords\CreateJob.ts:483:35
+Final action status: FAILED
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-c9a42b849177d37efe7f","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}

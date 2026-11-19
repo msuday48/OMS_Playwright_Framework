@@ -1,0 +1,104 @@
+[2026-11-17 22:26:06.878] [INFO] [UI] [TS_002 Procedure Creation] ================================ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:06.882] [INFO] [UI] [TS_002 Procedure Creation] UI TEST STARTED: TS_002 Procedure Creation | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:06.889] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] OMS_MODULES parsed successfully: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:06.890] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] Registered modules: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:06.891] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] Initial active module: PVI | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.699] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Locator     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.725] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Duration    : 26ms
+Page Class  : LoginPage
+Method      : selectLoginLocation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.737] [INFO] [UI] [TS_002 Procedure Creation] Selected login location: Corporate | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.738] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.767] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Duration    : 28ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.770] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.797] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Duration    : 28ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:11.799] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Locator     : locator('//div[@id=\'userLogin\']//button[1]')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:12.665] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Duration    : 866ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.104] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Starting popup handling. shouldClose=true, target=null | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.217] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup detected: Hold Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.218] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Clicking close button: Hold Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.529] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Closed popup successfully: Hold Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.571] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup detected: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.572] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Clicking close button: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.937] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Closed popup successfully: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.960] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup detected: Request for Approval | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:24.961] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Clicking close button: Request for Approval | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:25.352] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Closed popup successfully: Request for Approval | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:25.353] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup handling completed. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:25.358] [INFO] [UI] [TS_002 Procedure Creation] ========== TS_002: Procedure Creation ========== | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:32.876] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Creating PVI procedure: ALDX0253 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:49.388] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Selected first user option "Ali Khan" using value "6a6c4ac012b86a0d9dfe6296". | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:26:49.430] [INFO] [UI] [TS_002 Procedure Creation] Uploaded file: img.png | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\img.png"}
+[2026-11-17 22:26:49.633] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE SEARCH] Searching parent Procedures Library for: ALDX0253 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:27:48.283] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] Test-scoped module context cleared. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-17 22:27:48.284] [INFO] [UI] [TS_002 Procedure Creation] UI TEST FINISHED: TS_002 Procedure Creation | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}

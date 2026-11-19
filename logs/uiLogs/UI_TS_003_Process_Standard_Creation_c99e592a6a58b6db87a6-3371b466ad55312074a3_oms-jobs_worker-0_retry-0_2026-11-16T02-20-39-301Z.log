@@ -1,0 +1,841 @@
+[2026-11-16 07:50:39.335] [INFO] [UI] [TS_003 Process Standard Creation] ================================ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:39.339] [INFO] [UI] [TS_003 Process Standard Creation] UI TEST STARTED: TS_003 Process Standard Creation | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:39.348] [INFO] [UI] [TS_003 Process Standard Creation] [MODULES] OMS_MODULES parsed successfully: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:39.349] [INFO] [UI] [TS_003 Process Standard Creation] [MODULES] Registered modules: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:39.350] [INFO] [UI] [TS_003 Process Standard Creation] [MODULES] Initial active module: PVI | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:44.880] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Locator     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:44.910] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Duration    : 28ms
+Page Class  : LoginPage
+Method      : selectLoginLocation
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:44.923] [INFO] [UI] [TS_003 Process Standard Creation] Selected login location: Corporate | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:44.925] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:44.966] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Duration    : 41ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:44.968] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:45.004] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Duration    : 35ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:45.007] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Locator     : locator('//div[@id=\'userLogin\']//button[1]')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:46.050] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Duration    : 1043ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:58.058] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Starting popup handling. shouldClose=true, target=null | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:58.197] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Popup detected: Revised Policy | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:58.197] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Clicking close button: Revised Policy | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:58.676] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Closed popup successfully: Revised Policy | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:58.715] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Popup detected: Hold Reports | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:58.716] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Clicking close button: Hold Reports | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:59.193] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Closed popup successfully: Hold Reports | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:59.226] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Popup detected: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:59.226] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Clicking close button: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:59.519] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Closed popup successfully: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:59.532] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Popup detected: Request for Approval | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:50:59.532] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Clicking close button: Request for Approval | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:00.019] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Closed popup successfully: Request for Approval | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:00.019] [INFO] [UI] [TS_003 Process Standard Creation] [OMS POPUPS] Popup handling completed. | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:00.028] [INFO] [UI] [TS_003 Process Standard Creation] ========== TS_003: Process Standard Creation ========== | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:01.285] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD] Creating Process Standard for PVI | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:01.303] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@id=\'btn-new\']')
+Locator     : locator('//button[@id=\'btn-new\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:08.388] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@id=\'btn-new\']')
+Duration    : 7084ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:08.619] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'approvalModal1\']//button[@type=\'button\'][normalize-space()=\'I am aware. Proceed\']')
+Locator     : locator('//div[@id=\'approvalModal1\']//button[@type=\'button\'][normalize-space()=\'I am aware. Proceed\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:08.922] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'approvalModal1\']//button[@type=\'button\'][normalize-space()=\'I am aware. Proceed\']')
+Duration    : 303ms
+Page Class  : ProcessStandard
+Method      : clickAwareProceedModal
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:09.168] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@class="btn btn btn-sm btn-success" or @data-bb-handler="noclose"]')
+Locator     : locator('//button[@class="btn btn btn-sm btn-success" or @data-bb-handler="noclose"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:09.926] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@class="btn btn btn-sm btn-success" or @data-bb-handler="noclose"]')
+Duration    : 758ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:09.928] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Standard No.\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'testName\']')
+Locator     : locator('//label[contains(normalize-space(),\'Standard No.\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'testName\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:15.204] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Standard No.\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'testName\']')
+Duration    : 5276ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:15.207] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Test technique\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id="type"]')
+Locator     : locator('//label[contains(normalize-space(),\'Test technique\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id="type"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.162] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Test technique\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id="type"]')
+Duration    : 1954ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.164] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SCROLLTOELEMENT
+Element     : locator('//ul[@class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"]//child::li[@class="ui-menu-item"]//div[text()="Tensile test - all weld"]')
+Locator     : locator('//ul[@class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"]//child::li[@class="ui-menu-item"]//div[text()="Tensile test - all weld"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.293] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : SCROLLTOELEMENT
+Element     : locator('//ul[@class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"]//child::li[@class="ui-menu-item"]//div[text()="Tensile test - all weld"]')
+Duration    : 130ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.295] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//ul[@class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"]//child::li[@class="ui-menu-item"]//div[text()="Tensile test - all weld"]')
+Locator     : locator('//ul[@class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"]//child::li[@class="ui-menu-item"]//div[text()="Tensile test - all weld"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.382] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//ul[@class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"]//child::li[@class="ui-menu-item"]//div[text()="Tensile test - all weld"]')
+Duration    : 87ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.384] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Publication Date\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'datePublication\']')
+Locator     : locator('//label[contains(normalize-space(),\'Publication Date\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'datePublication\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.511] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Publication Date\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'datePublication\']')
+Duration    : 127ms
+Page Class  : ProcessStandard
+Method      : selectPublicationDate
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.514] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYLABEL
+Element     : locator('//select[contains(@class,\'ui-datepicker-month\')]')
+Locator     : locator('//select[contains(@class,\'ui-datepicker-month\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.534] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYLABEL
+Element     : locator('//select[contains(@class,\'ui-datepicker-month\')]')
+Duration    : 20ms
+Page Class  : ProcessStandard
+Method      : selectPublicationDate
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.536] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYVALUE
+Element     : locator('//select[contains(@class,\'ui-datepicker-year\')]')
+Locator     : locator('//select[contains(@class,\'ui-datepicker-year\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.568] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYVALUE
+Element     : locator('//select[contains(@class,\'ui-datepicker-year\')]')
+Duration    : 32ms
+Page Class  : ProcessStandard
+Method      : selectPublicationDate
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.571] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//table[contains(@class,\'ui-datepicker-calendar\')]//a[text()=\'30\']')
+Locator     : locator('//table[contains(@class,\'ui-datepicker-calendar\')]//a[text()=\'30\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.739] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//table[contains(@class,\'ui-datepicker-calendar\')]//a[text()=\'30\']')
+Duration    : 169ms
+Page Class  : ProcessStandard
+Method      : selectPublicationDate
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.756] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD] Selected date: 30/12/2026; expected Selenium date: 30/12/2026 | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.760] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Description\')]/ancestor::div[contains(@class,\'form-group\')]//textarea[@id=\'description\']')
+Locator     : locator('//label[contains(normalize-space(),\'Description\')]/ancestor::div[contains(@class,\'form-group\')]//textarea[@id=\'description\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.812] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Description\')]/ancestor::div[contains(@class,\'form-group\')]//textarea[@id=\'description\']')
+Duration    : 52ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.813] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD] Selecting Module Name: PVI - Pressure Vessel Inspection | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.816] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Module name\')]/ancestor::div[contains(@class,\'form-group\')]//span[@id=\'select2-moduleName-container\']')
+Locator     : locator('//label[contains(normalize-space(),\'Module name\')]/ancestor::div[contains(@class,\'form-group\')]//span[@id=\'select2-moduleName-container\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.959] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//label[contains(normalize-space(),\'Module name\')]/ancestor::div[contains(@class,\'form-group\')]//span[@id=\'select2-moduleName-container\']')
+Duration    : 143ms
+Page Class  : ProcessStandard
+Method      : selectModuleName
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:17.982] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//span[contains(@class,\'select2-dropdown\')]//input[contains(@class,\'select2-search__field\')]')
+Locator     : locator('//span[contains(@class,\'select2-dropdown\')]//input[contains(@class,\'select2-search__field\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.035] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//span[contains(@class,\'select2-dropdown\')]//input[contains(@class,\'select2-search__field\')]')
+Duration    : 53ms
+Page Class  : ProcessStandard
+Method      : selectModuleName
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.039] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : PRESS(ENTER)
+Element     : locator('//span[contains(@class,\'select2-dropdown\')]//input[contains(@class,\'select2-search__field\')]')
+Locator     : locator('//span[contains(@class,\'select2-dropdown\')]//input[contains(@class,\'select2-search__field\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.084] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : PRESS(ENTER)
+Element     : locator('//span[contains(@class,\'select2-dropdown\')]//input[contains(@class,\'select2-search__field\')]')
+Duration    : 46ms
+Page Class  : ProcessStandard
+Method      : selectModuleName
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.085] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD] Module selected: PVI - Pressure Vessel Inspection | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.087] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYVALUE
+Element     : locator('//label[contains(normalize-space(), \'Accreditation standard\')]//ancestor::div[@class="form-group"]//select[@id=\'accreditationType\']')
+Locator     : locator('//label[contains(normalize-space(), \'Accreditation standard\')]//ancestor::div[@class="form-group"]//select[@id=\'accreditationType\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.111] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYVALUE
+Element     : locator('//label[contains(normalize-space(), \'Accreditation standard\')]//ancestor::div[@class="form-group"]//select[@id=\'accreditationType\']')
+Duration    : 23ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.182] [INFO] [UI] [TS_003 Process Standard Creation] Uploaded file: ENGINEERING_SERVICES.pdf | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\ENGINEERING_SERVICES.pdf"}
+[2026-11-16 07:51:18.185] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : DOUBLECLICK
+Element     : locator('//button[@id=\'btn-save\']')
+Locator     : locator('//button[@id=\'btn-save\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.274] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : DOUBLECLICK
+Element     : locator('//button[@id=\'btn-save\']')
+Duration    : 90ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:18.276] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@id=\'popupUnderstoodBtn\']')
+Locator     : locator('//button[@id=\'popupUnderstoodBtn\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:20.782] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@id=\'popupUnderstoodBtn\']')
+Duration    : 2506ms
+Page Class  : ProcessStandard
+Method      : createProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:20.783] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD] Created: A962/A962M9754 | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:20.788] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING] Starting mapping for PVI | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:28.354] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Locator     : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:28.436] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Duration    : 82ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.286] [INFO] [UI] [TS_003 Process Standard Creation] Toast closed successfully. | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.313] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING] Procedure: ALDX1544 - Tensile Testing | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.315] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//div[@class="col-sm-offset-2 col-sm-5"]//child::input[@id=\'testProcedureMaster\']')
+Locator     : locator('//div[@class="col-sm-offset-2 col-sm-5"]//child::input[@id=\'testProcedureMaster\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.351] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//div[@class="col-sm-offset-2 col-sm-5"]//child::input[@id=\'testProcedureMaster\']')
+Duration    : 35ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.383] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Locator     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.515] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Duration    : 132ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.516] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//i[@class=\'fa fa-arrow-right addTestProcedure\']')
+Locator     : locator('//i[@class=\'fa fa-arrow-right addTestProcedure\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.630] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//i[@class=\'fa fa-arrow-right addTestProcedure\']')
+Duration    : 114ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.631] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING] Procedure moved right. | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.632] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Locator     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.698] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Duration    : 66ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.700] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@class=\'btn btn-success col-sm-8 removeTestProcedure btn-sm\']')
+Locator     : locator('//button[@class=\'btn btn-success col-sm-8 removeTestProcedure btn-sm\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.743] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@class=\'btn btn-success col-sm-8 removeTestProcedure btn-sm\']')
+Duration    : 43ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.744] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING] Procedure moved left. | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.746] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Locator     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.807] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'ALDX1544 - Tensile Testing\')]')
+Duration    : 61ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.810] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//i[@class=\'fa fa-arrow-right addTestProcedure\']')
+Locator     : locator('//i[@class=\'fa fa-arrow-right addTestProcedure\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.876] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//i[@class=\'fa fa-arrow-right addTestProcedure\']')
+Duration    : 65ms
+Page Class  : ProcessStandard
+Method      : mapProcedureToProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.876] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING] Mapping completed successfully. | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.880] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD REVISION] Revising PVI: A962/A962M2181 | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:29.881] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@id="withdrawn"]')
+Locator     : locator('//button[@id="withdrawn"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:30.009] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@id="withdrawn"]')
+Duration    : 128ms
+Page Class  : ProcessStandard
+Method      : rewiseProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:30.152] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@class="modal-content"]//child::button[text()="I am aware. Proceed"]')
+Locator     : locator('//div[@class="modal-content"]//child::button[text()="I am aware. Proceed"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:30.566] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@class="modal-content"]//child::button[text()="I am aware. Proceed"]')
+Duration    : 413ms
+Page Class  : ProcessStandard
+Method      : clickAwareProceedModal
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:30.836] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[contains(text(),\'conform with the requirements\')]/ancestor::div[contains(@class,\'modal-content\')]//button[normalize-space()=\'Yes\']')
+Locator     : locator('//div[contains(text(),\'conform with the requirements\')]/ancestor::div[contains(@class,\'modal-content\')]//button[normalize-space()=\'Yes\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:31.725] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[contains(text(),\'conform with the requirements\')]/ancestor::div[contains(@class,\'modal-content\')]//button[normalize-space()=\'Yes\']')
+Duration    : 889ms
+Page Class  : ProcessStandard
+Method      : rewiseProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:39.813] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@class="modal-content"]//button[@data-bb-handler="confirm" and text()="Proceed"]')
+Locator     : locator('//div[@class="modal-content"]//button[@data-bb-handler="confirm" and text()="Proceed"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:39.949] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@class="modal-content"]//button[@data-bb-handler="confirm" and text()="Proceed"]')
+Duration    : 137ms
+Page Class  : ProcessStandard
+Method      : rewiseProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:39.953] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Standard No.\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'testName\']')
+Locator     : locator('//label[contains(normalize-space(),\'Standard No.\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'testName\']')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:39.989] [INFO] [UI] [TS_003 Process Standard Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//label[contains(normalize-space(),\'Standard No.\')]/ancestor::div[contains(@class,\'form-group\')]//input[@id=\'testName\']')
+Duration    : 37ms
+Page Class  : ProcessStandard
+Method      : rewiseProcessStandard
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:39.997] [INFO] [UI] [TS_003 Process Standard Creation] Updated environment property: CreatedProcessNo | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:40.008] [INFO] [UI] [TS_003 Process Standard Creation] Updated environment property: PVICreatedProcessNo | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:40.008] [INFO] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING] Starting mapping for PVI | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:51:45.043] [INFO] [UI] [TS_003 Process Standard Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICKUSINGJS
+Element     : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Locator     : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Page Class  : ProcessStandard
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:56:16.522] [ERROR] [UI] [TS_003 Process Standard Creation] 
+============================================================
+                    UI ACTION FAILED
+============================================================
+
+Action       : CLICKUSINGJS
+Element      : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Locator      : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Page Class   : ProcessStandard
+Method       : mapProcedureToProcessStandard
+Current URL  : URL unavailable (page closed)
+
+Duration     : 271452ms
+
+Error        : locator.evaluate: Target page, context or browser has been closed
+
+Reason       : Timeout while waiting for the element action to complete.
+
+FAILED SOURCE:
+
+at ProcessStandard.mapProcedureToProcessStandard
+   (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:468:13)
+
+ORIGINAL PLAYWRIGHT STACK TRACE:
+
+locator.evaluate: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//div[@id="toast-container"]//div[@class="toast-message"]')[22m
+
+    at run (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:178:17)
+    at UIActionUtils.locatorAction (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:1514:34)
+    at UIActionUtils.clickUsingJS (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:177:21)
+    at UIActionUtils.toastWaitAndClose (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:1388:28)
+    at ProcessStandard.mapProcedureToProcessStandard (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:468:13)
+    at ProcessStandard.rewiseProcessStandard (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:672:9)
+    at C:\Users\user\OneDrive\Desktop\OMS_Framework\tests\web\JobCreation.spec.ts:196:13
+    at C:\Users\user\OneDrive\Desktop\OMS_Framework\tests\web\JobCreation.spec.ts:195:9
+
+RECOVERY:
+
+Attempted          : NO
+Original locator   : locator('//div[@id="toast-container"]//div[@class="toast-message"]')
+Source location    : C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:468:13
+Final action status: FAILED
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:56:16.543] [INFO] [UI] [TS_003 Process Standard Creation] Toast auto-dismissed before interaction | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:56:16.563] [ERROR] [UI] [TS_003 Process Standard Creation] 
+============================================================
+                    UI ACTION FAILED
+============================================================
+
+Action       : WAITFORVISIBLE
+Element      : locator('//div[@class="col-sm-offset-2 col-sm-5"]//child::input[@id=\'testProcedureMaster\']')
+Locator      : locator('//div[@class="col-sm-offset-2 col-sm-5"]//child::input[@id=\'testProcedureMaster\']')
+Page Class   : ProcessStandard
+Method       : mapProcedureToProcessStandard
+Current URL  : URL unavailable (page closed)
+
+Duration     : 6ms
+
+Error        : locator.waitFor: Target page, context or browser has been closed
+
+Reason       : locator.waitFor: Target page, context or browser has been closed
+
+FAILED SOURCE:
+
+at ProcessStandard.mapProcedureToProcessStandard
+   (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:478:39)
+
+ORIGINAL PLAYWRIGHT STACK TRACE:
+
+locator.waitFor: Target page, context or browser has been closed
+    at run (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:663:75)
+    at UIActionUtils.locatorAction (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:1514:34)
+    at UIActionUtils.waitForVisible (C:\Users\user\OneDrive\Desktop\OMS_Framework\utils\actions\UIActionUtils.ts:663:21)
+    at ProcessStandard.mapProcedureToProcessStandard (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:478:39)
+    at ProcessStandard.rewiseProcessStandard (C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:672:9)
+    at C:\Users\user\OneDrive\Desktop\OMS_Framework\tests\web\JobCreation.spec.ts:196:13
+    at C:\Users\user\OneDrive\Desktop\OMS_Framework\tests\web\JobCreation.spec.ts:195:9
+
+RECOVERY:
+
+Attempted          : NO
+Original locator   : locator('//div[@class="col-sm-offset-2 col-sm-5"]//child::input[@id=\'testProcedureMaster\']')
+Source location    : C:\Users\user\OneDrive\Desktop\OMS_Framework\pages\Specifications\Standards\ProcessStandard.ts:478:39
+Final action status: FAILED
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-16 07:56:16.565] [ERROR] [UI] [TS_003 Process Standard Creation] [PROCESS STANDARD MAPPING FAILURE] Step="Wait for available procedure input", Module="PVI", Procedure="", URL="https://test.omssoftware.com.au/oms/testMethodCntrl/createOrEdit?id=6afa68a059dc3e00084c59ff&action=add&status=", Error="locator.waitFor: Target page, context or browser has been closed" | {"testId":"c99e592a6a58b6db87a6-3371b466ad55312074a3","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}

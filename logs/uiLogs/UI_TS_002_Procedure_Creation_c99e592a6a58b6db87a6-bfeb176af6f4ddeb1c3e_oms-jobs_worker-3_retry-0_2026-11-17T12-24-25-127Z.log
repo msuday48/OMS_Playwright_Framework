@@ -1,0 +1,775 @@
+[2026-11-17 17:54:25.129] [INFO] [UI] [TS_002 Procedure Creation] ================================ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:25.130] [INFO] [UI] [TS_002 Procedure Creation] UI TEST STARTED: TS_002 Procedure Creation | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:25.145] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] OMS_MODULES parsed successfully: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:25.146] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] Registered modules: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:25.148] [INFO] [UI] [TS_002 Procedure Creation] [MODULES] Initial active module: PVI | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.290] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Locator     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.315] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYINDEX
+Element     : locator('//form[@id=\'userLoginform\']//select[@id=\'location\']')
+Duration    : 25ms
+Page Class  : LoginPage
+Method      : selectLoginLocation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.322] [INFO] [UI] [TS_002 Procedure Creation] Selected login location: Corporate | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.324] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.355] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@id=\'userId\']')
+Duration    : 31ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.357] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Locator     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.379] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'userLoginform\']//input[@name=\'userPassword\']')
+Duration    : 22ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:29.380] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Locator     : locator('//div[@id=\'userLogin\']//button[1]')
+Page Class  : LoginPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:30.335] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'userLogin\']//button[1]')
+Duration    : 955ms
+Page Class  : LoginPage
+Method      : login
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.020] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Starting popup handling. shouldClose=true, target=null | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.157] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup detected: Hold Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.158] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Clicking close button: Hold Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.475] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Closed popup successfully: Hold Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.497] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup detected: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.497] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Clicking close button: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.966] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Closed popup successfully: Incomplete Reports | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.981] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup detected: Request for Approval | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:43.981] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Clicking close button: Request for Approval | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:44.414] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Closed popup successfully: Request for Approval | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:44.414] [INFO] [UI] [TS_002 Procedure Creation] [OMS POPUPS] Popup handling completed. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:44.420] [INFO] [UI] [TS_002 Procedure Creation] ========== TS_002: Procedure Creation ========== | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:53.131] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Creating Procedure for PVI: ALDX6042 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:53.145] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//button[@id=\'btn-new\']')
+Locator     : locator('//button[@id=\'btn-new\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:54:59.056] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//button[@id=\'btn-new\']')
+Duration    : 5911ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:06.700] [INFO] [UI] [TS_002 Procedure Creation] Switched to child window successfully. Title: Create or edit Procedure | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:06.702] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'name\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'name\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:06.782] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'name\']')
+Duration    : 80ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:07.805] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'description\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'description\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.387] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'description\']')
+Duration    : 582ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.389] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'datePublication\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'datePublication\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.666] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'datePublication\']')
+Duration    : 277ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.670] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYLABEL
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-month\')]')
+Locator     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-month\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.784] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYLABEL
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-month\')]')
+Duration    : 114ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.788] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYVALUE
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-year\')]')
+Locator     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-year\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.837] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYVALUE
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-year\')]')
+Duration    : 49ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.840] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//table//td[not(contains(@class,\'ui-datepicker-other-month\'))]/a[normalize-space()=\'31\']')
+Locator     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//table//td[not(contains(@class,\'ui-datepicker-other-month\'))]/a[normalize-space()=\'31\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:08.966] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//table//td[not(contains(@class,\'ui-datepicker-other-month\'))]/a[normalize-space()=\'31\']')
+Duration    : 126ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:09.222] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SCROLLTOELEMENT
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'nominalLifePeriod\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'nominalLifePeriod\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:11.712] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SCROLLTOELEMENT
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'nominalLifePeriod\']')
+Duration    : 2490ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:11.714] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYVALUE
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'nominalLifePeriod\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'nominalLifePeriod\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:11.733] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYVALUE
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'nominalLifePeriod\']')
+Duration    : 19ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:11.746] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[contains(@class,\'bootbox\')]//button[normalize-space()=\'Understood\']')
+Locator     : locator('//div[contains(@class,\'bootbox\')]//button[normalize-space()=\'Understood\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:11.820] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[contains(@class,\'bootbox\')]//button[normalize-space()=\'Understood\']')
+Duration    : 74ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:11.824] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'nextReviewDate\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'nextReviewDate\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.208] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'nextReviewDate\']')
+Duration    : 383ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.212] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYLABEL
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-month\')]')
+Locator     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-month\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.324] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYLABEL
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-month\')]')
+Duration    : 112ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.348] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYLABEL
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-year\')]')
+Locator     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-year\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.412] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYLABEL
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//select[contains(@class,\'ui-datepicker-year\')]')
+Duration    : 64ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.446] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//table//td[not(contains(@class,\'ui-datepicker-other-month\'))]/a[normalize-space()=\'30\']')
+Locator     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//table//td[not(contains(@class,\'ui-datepicker-other-month\'))]/a[normalize-space()=\'30\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.561] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//div[@id=\'ui-datepicker-div\' and not(contains(@style,\'display: none\'))]//table//td[not(contains(@class,\'ui-datepicker-other-month\'))]/a[normalize-space()=\'30\']')
+Duration    : 115ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.565] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'notifyTo\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'notifyTo\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.721] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//input[@id=\'notifyTo\']')
+Duration    : 156ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.726] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//ul[contains(@class,\'ui-autocomplete\') and not(contains(@style,\'display: none\'))]//li[.//*[contains(normalize-space(.),\'tech1\')]]')
+Locator     : locator('//ul[contains(@class,\'ui-autocomplete\') and not(contains(@style,\'display: none\'))]//li[.//*[contains(normalize-space(.),\'tech1\')]]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.834] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//ul[contains(@class,\'ui-autocomplete\') and not(contains(@style,\'display: none\'))]//li[.//*[contains(normalize-space(.),\'tech1\')]]')
+Duration    : 108ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:12.836] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'optionalNotifyTo\']/following-sibling::span[contains(@class,\'select2-container\')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'optionalNotifyTo\']/following-sibling::span[contains(@class,\'select2-container\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.204] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'optionalNotifyTo\']/following-sibling::span[contains(@class,\'select2-container\')]')
+Duration    : 368ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.293] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Locator     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.347] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Duration    : 54ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.352] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : PRESS(ENTER)
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Locator     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.428] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : PRESS(ENTER)
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Duration    : 75ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.430] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYVALUE
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'reminderFrequency\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'reminderFrequency\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.505] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYVALUE
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'reminderFrequency\']')
+Duration    : 75ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.512] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//textarea[@id=\'eventDescription\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//textarea[@id=\'eventDescription\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.560] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//textarea[@id=\'eventDescription\']')
+Duration    : 48ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.563] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : SELECTBYVALUE
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'escalatePeriod\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'escalatePeriod\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.590] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : SELECTBYVALUE
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'escalatePeriod\']')
+Duration    : 27ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.595] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'escalateToUser\']/following-sibling::span[contains(@class,\'select2-container\')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'escalateToUser\']/following-sibling::span[contains(@class,\'select2-container\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.688] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'escalateToUser\']/following-sibling::span[contains(@class,\'select2-container\')]')
+Duration    : 93ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.702] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Locator     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.724] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Duration    : 21ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.725] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : PRESS(ENTER)
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Locator     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.805] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : PRESS(ENTER)
+Element     : locator('//span[contains(@class,\'select2-container--open\')]//input[contains(@class,\'select2-search__field\')]')
+Duration    : 80ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.806] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Selecting process standard(s) for PVI: AS 4037-1999 (R2016) Sec. 17 (Pressure test - hydrostatic) | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:13.849] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')]/button[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect \') and contains(concat(\' \', normalize-space(@class), \' \'), \' dropdown-toggle \')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')]/button[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect \') and contains(concat(\' \', normalize-space(@class), \' \'), \' dropdown-toggle \')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:14.312] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')]/button[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect \') and contains(concat(\' \', normalize-space(@class), \' \'), \' dropdown-toggle \')]')
+Duration    : 463ms
+Page Class  : ProceduresPage
+Method      : openProcessStandardDropdown
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:14.333] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')][contains(concat(\' \', normalize-space(@class), \' \'), \' open \')]//input[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect-search \')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')][contains(concat(\' \', normalize-space(@class), \' \'), \' open \')]//input[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect-search \')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:14.395] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')][contains(concat(\' \', normalize-space(@class), \' \'), \' open \')]//input[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect-search \')]')
+Duration    : 61ms
+Page Class  : ProceduresPage
+Method      : selectProcessStandards
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:14.479] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//ul[contains(@class,\'multiselect-container\')]//label[normalize-space(.)=\'AS 4037-1999 (R2016) Sec. 17 (Pressure test - hydrostatic)\']//input[@type=\'checkbox\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//ul[contains(@class,\'multiselect-container\')]//label[normalize-space(.)=\'AS 4037-1999 (R2016) Sec. 17 (Pressure test - hydrostatic)\']//input[@type=\'checkbox\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:14.861] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//ul[contains(@class,\'multiselect-container\')]//label[normalize-space(.)=\'AS 4037-1999 (R2016) Sec. 17 (Pressure test - hydrostatic)\']//input[@type=\'checkbox\']')
+Duration    : 382ms
+Page Class  : ProceduresPage
+Method      : selectProcessStandards
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.091] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Process standard selected for PVI: AS 4037-1999 (R2016) Sec. 17 (Pressure test - hydrostatic) | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.117] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')]/button[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect \') and contains(concat(\' \', normalize-space(@class), \' \'), \' dropdown-toggle \')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')]/button[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect \') and contains(concat(\' \', normalize-space(@class), \' \'), \' dropdown-toggle \')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.187] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'testMethodType\']/following-sibling::div[contains(concat(\' \', normalize-space(@class), \' \'), \' btn-group \')]/button[contains(concat(\' \', normalize-space(@class), \' \'), \' multiselect \') and contains(concat(\' \', normalize-space(@class), \' \'), \' dropdown-toggle \')]')
+Duration    : 70ms
+Page Class  : ProceduresPage
+Method      : closeProcessStandardDropdown
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.189] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'branch\']/following-sibling::div[contains(@class,\'btn-group\')]/button[contains(@class,\'multiselect\') and contains(@class,\'dropdown-toggle\')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'branch\']/following-sibling::div[contains(@class,\'btn-group\')]/button[contains(@class,\'multiselect\') and contains(@class,\'dropdown-toggle\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.234] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'branch\']/following-sibling::div[contains(@class,\'btn-group\')]/button[contains(@class,\'multiselect\') and contains(@class,\'dropdown-toggle\')]')
+Duration    : 45ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.264] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Selected branch: Sydney | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.332] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\')]/button[contains(@class,\'multiselect\') and contains(@class,\'dropdown-toggle\')]')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\')]/button[contains(@class,\'multiselect\') and contains(@class,\'dropdown-toggle\')]')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.415] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\')]/button[contains(@class,\'multiselect\') and contains(@class,\'dropdown-toggle\')]')
+Duration    : 83ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.416] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//input[contains(@class,\'multiselect-search\') and @placeholder=\'Search\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//input[contains(@class,\'multiselect-search\') and @placeholder=\'Search\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.448] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : FILL
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//input[contains(@class,\'multiselect-search\') and @placeholder=\'Search\']')
+Duration    : 32ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.452] [INFO] [UI] [TS_002 Procedure Creation] 
+============================================================
+[UI ACTION STARTED]
+============================================================
+
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//ul[contains(@class,\'multiselect-container\')]//label[normalize-space(.)=\'UDAY MS\']//input[@type=\'checkbox\']')
+Locator     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//ul[contains(@class,\'multiselect-container\')]//label[normalize-space(.)=\'UDAY MS\']//input[@type=\'checkbox\']')
+Page Class  : ProceduresPage
+
+============================================================
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.565] [INFO] [UI] [TS_002 Procedure Creation] 
+[UI ACTION PASSED]
+Action      : CLICK
+Element     : locator('//form[@id=\'testProcedureForm\']//select[@id=\'procedureAlertUser\']/following-sibling::div[contains(@class,\'btn-group\') and contains(@class,\'open\')]//ul[contains(@class,\'multiselect-container\')]//label[normalize-space(.)=\'UDAY MS\']//input[@type=\'checkbox\']')
+Duration    : 113ms
+Page Class  : ProceduresPage
+Method      : procedureCreation
+ | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.627] [INFO] [UI] [TS_002 Procedure Creation] Uploaded file: img.png | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS","path":"c:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\img.png"}
+[2026-11-17 17:55:15.628] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Clicking Save for procedure: ALDX6042 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.629] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Saving ALDX6042. Waiting for the child window to finish loading... | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:15.816] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Child window reached network-idle state after Save. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:58.912] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Procedures library loaded in the child window. Searching for ALDX6042 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:55:59.086] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Search attempt 1/2 for ALDX6042 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:56:06.872] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] PASS: Created Procedure ALDX6042 is present in the filtered Procedures table. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:56:06.878] [INFO] [UI] [TS_002 Procedure Creation] Updated environment property: CreatedProcedureNo | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:56:06.886] [INFO] [UI] [TS_002 Procedure Creation] Updated environment property: PVICreatedProcedureNo | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:56:06.888] [INFO] [UI] [TS_002 Procedure Creation] [PROCEDURE] Created and verified procedure number: ALDX6042 | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:56:06.936] [INFO] [UI] [TS_002 Procedure Creation] Closed child window. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}
+[2026-11-17 17:56:06.956] [INFO] [UI] [TS_002 Procedure Creation] Switched back to parent window. | {"testId":"c99e592a6a58b6db87a6-bfeb176af6f4ddeb1c3e","projectName":"oms-jobs","workerIndex":3,"retry":0,"moduleName":"OMS"}

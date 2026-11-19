@@ -1,0 +1,32 @@
+[2026-11-18 10:19:33.103] [INFO] [UI] [TS_004 Specification Standard Creation] ================================ | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:33.104] [INFO] [UI] [TS_004 Specification Standard Creation] UI TEST STARTED: TS_004 Specification Standard Creation | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:33.113] [INFO] [UI] [TS_004 Specification Standard Creation] [MODULES] OMS_MODULES parsed successfully: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:33.113] [INFO] [UI] [TS_004 Specification Standard Creation] [MODULES] Registered modules: PVI (combinedRun=false) | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:33.113] [INFO] [UI] [TS_004 Specification Standard Creation] [MODULES] Initial active module: PVI | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:33.116] [INFO] [UI] [TS_004 Specification Standard Creation] [OMS SESSION] Reusing active authenticated browser session (Selenium-style). | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:33.120] [INFO] [UI] [TS_004 Specification Standard Creation] ========== TS_004: Specification Standard Creation ========== | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:34.228] [INFO] [UI] [TS_004 Specification Standard Creation] [SPECIFICATION STANDARD] Creating PVI: AMS - STD-4790 | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:47.933] [INFO] [UI] [TS_004 Specification Standard Creation] Uploaded file: FeSteel600.pdf | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS","path":"C:\\Users\\user\\OneDrive\\Desktop\\OMS_Framework\\testdata\\FeSteel600.pdf"}
+[2026-11-18 10:19:47.934] [INFO] [UI] [TS_004 Specification Standard Creation] [SPECIFICATION STANDARD] FeSteel600.pdf uploaded. | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:49.936] [INFO] [UI] [TS_004 Specification Standard Creation] [SPECIFICATION STANDARD] Creation submitted: AMS - STD-4790 | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:49.942] [INFO] [UI] [TS_004 Specification Standard Creation] [SPECIFICATION MAPPING] Starting mapping for PVI | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:19:54.750] [INFO] [UI] [TS_004 Specification Standard Creation] [SPECIFICATION MAPPING] Process standard: A962/A962M3658-Tensile test - all weld | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 10:31:34.397] [ERROR] [UI] [TS_004 Specification Standard Creation] [SPECIFICATION MAPPING FAILURE] Module=PVI, Step=Select process-standard checkbox, ProcessStandard=A962/A962M3658-Tensile test - all weld, URL=https://test.omssoftware.com.au/oms/specMasterCntrl/createOrEdit?action=edit&id=6afd2e6cf4196b7d3c7f28b0, Error=locator.check: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//span[@class=\'list-group-item-text\' and contains(normalize-space(),\'A962/A962M3658-Tensile test - all weld\')]').locator('xpath=ancestor::label[1]//input[@type="checkbox"]')[22m
+[2m    - locator resolved to <input type="checkbox" data-status="true" class="fromTestMethod" data-id="6afd2e4ff4196b7d3c7f28af" data-value="A962/A962M3658-Tensile test - all weld"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    1295 × waiting for element to be visible, enabled and stable[22m
+[2m         - element is not visible[22m
+[2m       - retrying click action[22m
+[2m         - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+ | {"testId":"c99e592a6a58b6db87a6-717cb7fc12464382652a","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}

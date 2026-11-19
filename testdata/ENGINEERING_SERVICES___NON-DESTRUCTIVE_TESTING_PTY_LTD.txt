@@ -1,0 +1,9 @@
+      Entity / Business name : ENGINEERING SERVICES & NON-DESTRUCTIVE TESTING PTY LTD
+         Business Id. Number : 29097379381
+     Entity name on a report : ENGINEERING SERVICES & NON-DESTRUCTIVE TESTING PTY LTD
+Name on an invoice/statement : ENGINEERING SERVICES & NON-DESTRUCTIVE TESTING PTY LTD
+         Email Statements to : jackdivitto@bigpond.com
+               Credit Period : 15
+                Credit limit : 2000.0
+                   Addresses :  
+                   Address 1 : 63  Broadford Cres Macleod VIC Australia 3085

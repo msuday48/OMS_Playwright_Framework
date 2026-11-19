@@ -1,0 +1,9 @@
+      Entity / Business name : Non destructive testing business
+         Business Id. Number : 5987835717_
+     Entity name on a report : Non destructive testing business
+Name on an invoice/statement : Non destructive testing business
+         Email Statements to :  
+               Credit Period : 20
+                Credit limit : 7000.0
+                   Addresses :  
+                   Address 1 : Jayanagar 4th block, 2nd street Bangalore Karnataka India 560011

@@ -1,0 +1,4 @@
+[2026-11-18 11:23:58.312] [INFO] [UI] [TS_001 Material Creation] ================================ | {"testId":"c99e592a6a58b6db87a6-64b57400e195411ce685","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 11:23:58.314] [INFO] [UI] [TS_001 Material Creation] UI TEST STARTED: TS_001 Material Creation | {"testId":"c99e592a6a58b6db87a6-64b57400e195411ce685","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 11:23:58.317] [INFO] [UI] [TS_001 Material Creation] ========== TS_001: Material Creation ========== | {"testId":"c99e592a6a58b6db87a6-64b57400e195411ce685","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}
+[2026-11-18 11:23:59.283] [INFO] [UI] [TS_001 Material Creation] UI TEST FINISHED: TS_001 Material Creation | {"testId":"c99e592a6a58b6db87a6-64b57400e195411ce685","projectName":"oms-jobs","workerIndex":0,"retry":0,"moduleName":"OMS"}

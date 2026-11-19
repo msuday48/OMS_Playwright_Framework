@@ -1,0 +1,11 @@
+{
+  "compilets.autoStart": true,
+  "chat.agent.enabled": true,
+  "chat.agentFilesLocations": {
+    ".github/agents": true
+  },
+  "github.copilot.chat.customAgents.enabled": true,
+  "github.copilot.chat.cli.customAgents.enabled": true,
+  "github.copilot.chat.organizationCustomAgents.enabled": true,
+  "chat.tools.autoApprove": false
+}
